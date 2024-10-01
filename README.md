@@ -36,4 +36,12 @@ Git configuring means setting up Git to work the way you want. You do this by se
      <code>git clone <-some link-> </code>
 
  - STATUS : Displays the state of the code
-   <code>git status</code>  
+   <code>git status</code>
+
+   ### Terminal Commands
+   
+- <code>cd</code> Command to change directory => want to  go from outer folder to inner.
+- Tab : Press tab to  auto  complete.
+- <code>Clear</code> this command clear the terminal.
+- <code>ls</code> ls(List Files) command list all files and folders.
+- <code>ls -a</code> to see all files including hidden files.
