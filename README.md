@@ -7,7 +7,9 @@ This  repository is a comprehensive collection of essential Git and GitHub comma
 - To check  all filles and folders in current working directoory <code>ls</code>
 - Cear window <code>clear</code>
 <br>
-# Configuring Git
+
+## Configuring Git
+
 Git configuring means setting up Git to work the way you want. You do this by setting your name, email, and other preferences. Some important commands are:
 ## 1-Set your name and email (for identifying commits):
 <code>git config --global user.name "Your Name"</code>
