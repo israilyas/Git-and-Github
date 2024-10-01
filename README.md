@@ -68,6 +68,8 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 - STAGED: File is ready to be committed
 - UNMODIFIED: Unchanged
 
+---
+
 ## Add and Commit 
 
 - ADD: adds new or changed file in your working directory to the Git staging area <br>
@@ -76,9 +78,11 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 - COMMIT: it is the record of change.<br>
 <code>git commit -m "some message(meaningful message about update)"</code>
 
+---
+
 ## Push Command 
 
 - PUSH: upload local repo content to remote repo.
   <code>git push orgin main</code>
 
->>>>>>> 7a4d38c0942f6d4757fba32efae06fe54ebbe5c8
+
