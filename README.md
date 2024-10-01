@@ -39,17 +39,24 @@ Git configuring means setting up Git to work the way you want. You do this by se
    <code>git status</code>
 
 ### Terminal Commands
-   
+   <br>
 - <code>cd</code> Command to change directory => want to  go from outer folder to inner.
 - Tab : Press tab to  auto  complete.
 - <code>Clear</code> this command clear the terminal.
 - <code>ls</code> ls(List Files) command list all files and folders.
 - <code>ls -a</code> to see all files including hidden files.
-
+  <br>
 PowerShell doesn't recognize <code>ls -a</code> in the same way as other shells like Bash. In PowerShell, <code>ls</code> is an alias for <code>Get-ChildItem</code>, and the <code>-a</code> flag is ambiguous because there are multiple parameters starting with "a".
 <br>
 To list all files, including hidden ones, in PowerShell, you can use:<br>
 <code>ls -Force</code>
 <br>Or<br>
 <code>Get-ChildItem -Force</code>
+  <br>
+### Git Status
+  <br>
+- UNTRACKED: new files that  git  doesn't yet track.
+- MODIFIED: changed
+- STAGED: File is ready to be committed
+- UNMODIFIED: Unchanged
 
