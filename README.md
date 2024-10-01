@@ -67,10 +67,7 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 ## Add and Commit 
 
 - ADD: adds new or changed file in your working directory to the Git staging area <br>
-<code>git add <-file name-></code>
-<br>
- For Stages all the modified and untracked files: <br>
-   <code>git add .</code>
+<code>git add <-file name-></code><br>For Staging all the modified and untracked files: <br><code>git add .</code>
 
 - COMMIT: it is the record of change.<br>
 <code>git commit -m "some message(meaningful message about update)"</code>
