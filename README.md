@@ -19,3 +19,13 @@ Git configuring means setting up Git to work the way you want. You do this by se
 ### 2- Check your settings:
 <code>git config --list
 </code>
+
+## Clone and Status
+
+### Local vs Remote in Version Control
+
+- LOCAL refers to the copy of the project stored on your computer. You can make changes here, create commits, and track your work.
+
+- REMOTE refers to a version of the project stored on a server (like GitHub). It's shared with others, allowing you to collaborate and back up your work.
+
+ ou push changes from your local version to the remote and pull updates from the remote to your local. 
