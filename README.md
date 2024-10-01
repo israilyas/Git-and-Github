@@ -5,7 +5,7 @@ This  repository is a comprehensive collection of essential Git and GitHub comma
 - To check version of git <code>git --version</code>
 - To check current working directoory <code>pwd</code>
 - To check  all filles and folders in current working directoory <code>ls</code>
-- Cear window <code>clear</code>
+- Clear window <code>clear</code>
 <br>
 
 ## Configuring Git
@@ -24,7 +24,7 @@ Git configuring means setting up Git to work the way you want. You do this by se
 
 ### Local vs Remote in Version Control
 
-- LOCAL refers to the copy of the project stored on your computer. You can make changes here, create commits, and track your work.
+- LOCAL refers to the copy of the project stored on your computer or laptop. You can make changes here, create commits, and track your work.
 
 - REMOTE refers to a version of the project stored on a server (like GitHub). It's shared with others, allowing you to collaborate and back up your work.
 
@@ -33,7 +33,7 @@ Git configuring means setting up Git to work the way you want. You do this by se
  ### Clone and Status
 
  - CLONE : Cloning a repository to your locall machine.
-     <code>git clone <some link> </code>
+     <code>git clone <-some link-> </code>
 
  - STATUS : Displays the state of the code
    <code>git status</code>  
