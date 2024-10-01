@@ -37,3 +37,4 @@ Git configuring means setting up Git to work the way you want. You do this by se
 
  - STATUS : Displays the state of the code
    <code>git status</code>  
+   
