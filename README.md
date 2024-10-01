@@ -72,3 +72,8 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 - COMMIT: it is the record of change.<br>
 <code>git commit -m "some message(meaningful message about update)"</code>
 
+## Push Command 
+
+- PUSH: upload local repo content to remote repo.
+  <code>git push orgin main</code>
+
