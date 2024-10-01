@@ -53,8 +53,10 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 <br>Or<br>
 <code>Get-ChildItem -Force</code>
   <br>
+  
 ### Git Status
   <br>
+  
 - UNTRACKED: new files that  git  doesn't yet track.
 - MODIFIED: changed
 - STAGED: File is ready to be committed
