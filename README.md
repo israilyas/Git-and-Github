@@ -97,11 +97,28 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 
 ## Init Command
 
-- Initialize empty git epo: <code>git init</code>
--  Add remote repository (origin is the by default name of remote repo we can also change it): <code>git remote add origin <-link-></code>
-- verify remote: <code>git remote -v</code>
-- TO check branch<code>git branch</code>
-- To rename branch: <code>git branch -M main</code>
-- <code>git push origin main</code>
+- **Initialize an empty Git repository**: 
+  <code>git init</code>
+
+- **Add a remote repository (origin is the default name, but it can be changed)**: 
+  <code>git remote add origin &lt;link&gt;</code>
+
+  The term "origin" is just a convention used by Git to refer to the main remote repository, typically the one you cloned from or the one you will push your changes to. However, you can choose a different name instead of "origin" if you prefer, like this:
+  <code>git remote add my-remote <repository-link></code>
+
+- **Verify the remote repository URLs for push and pull actions**: 
+  <code>git remote -v</code>
+
+- **Check the current branch**: 
+  <code>git branch</code>
+
+- **Rename the current branch to 'main' (following modern conventions)**: 
+  <code>git branch -M main</code>
+
+- **Push local changes to the 'main' branch of the remote repository**: 
+  <code>git push origin main</code>
+
+- **Push and set the upstream branch to 'main' for future pushes**: 
+  <code>git push -u origin main</code>
 
 
