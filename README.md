@@ -165,7 +165,6 @@ A branch allows you to work on different features or fixes independently. Once y
 
 - <code>git diff <- branch name -></code>  To compare commits,branches,files & more
 - <code>git merge <- branch name -></code>  To merge two branches
-- <code></code>
 
 #### Way 2
 
