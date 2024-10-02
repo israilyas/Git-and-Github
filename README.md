@@ -109,6 +109,19 @@ Configuring Git means setting your preferences, like your name and email.
 
 ---
 
+## What is a Branch?
+A **branch** in Git is a separate version of your project where you can make changes without affecting the main code.
+
+### Definition:
+A branch allows you to work on different features or fixes independently. Once you're done, you can merge your changes back into the main branch.
+
+### Key Points:
+- **Isolation**: Changes in one branch don’t impact others.
+- **Collaboration**: Multiple people can work on different branches at the same time.
+- **Version Control**: You can track and combine changes easily.
+
+---
+
 ## Setting Up and Managing a Git Repository
 - **Initialize a new Git repository**: 
   <code>git init</code>
