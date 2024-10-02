@@ -109,19 +109,6 @@ Configuring Git means setting your preferences, like your name and email.
 
 ---
 
-## What is a Branch?
-A **branch** in Git is a separate version of your project where you can make changes without affecting the main code.
-
-### Definition:
-A branch allows you to work on different features or fixes independently. Once you're done, you can merge your changes back into the main branch.
-
-### Key Points:
-- **Isolation**: Changes in one branch don’t impact others.
-- **Collaboration**: Multiple people can work on different branches at the same time.
-- **Version Control**: You can track and combine changes easily.
-
----
-
 ## Setting Up and Managing a Git Repository
 - **Initialize a new Git repository**: 
   <code>git init</code>
@@ -150,3 +137,41 @@ A branch allows you to work on different features or fixes independently. Once y
 - **Push and set upstream branch**: 
   <code>git push -u origin main</code>
   - Pushes to the `main` branch and sets it as the default upstream for future pushes.
+
+---
+
+## What is a Branch?
+A **branch** in Git is a separate version of your project where you can make changes without affecting the main code.
+
+### Definition:
+A branch allows you to work on different features or fixes independently. Once you're done, you can merge your changes back into the main branch.
+
+### Key Points:
+- **Isolation**: Changes in one branch don’t impact others.
+- **Collaboration**: Multiple people can work on different branches at the same time.
+- **Version Control**: You can track and combine changes easily.
+
+### Branch Commands
+
+- To check branch: <code>git branch</code>
+- To rename branch: <code>git branch -M <-Name-></code>
+- To navigate: <code>git checkout <-branch Name-></code>
+- To create new branch : <code>>git checkout  -b <-branch Name-></code>
+- To delete branch : <code>git branch -d <-branch Name-></code>
+
+### Merging Code 
+
+#### Way 1
+
+- <code>git diff <- branch name -></code>  To compare commits,branches,files & more
+- <code>git merge <- branch name -></code>  To merge two branches
+- <code></code>
+
+#### Way 2
+
+- Create a Pull Request (PR)
+
+  ##### Pull Request
+ It lets you tell other about changes you have pushed to a branch in a repositor on a Github.
+
+---
