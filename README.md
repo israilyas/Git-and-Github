@@ -95,7 +95,7 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 
 ---
 
-## Init Command
+## Setting Up and Managing a Git Repository
 
 - **Initialize an empty Git repository**: 
   <code>git init</code>
