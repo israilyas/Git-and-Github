@@ -97,6 +97,11 @@ To list all files, including hidden ones, in PowerShell, you can use:<br>
 
 ## Init Command
 
-<code>git init</code>
+- Initialize empty git epo: <code>git init</code>
+-  Add remote repository (origin is the by default name of remote repo we can also change it): <code>git remote add origin <-link-></code>
+- verify remote: <code>git remote -v</code>
+- TO check branch<code>git branch</code>
+- To rename branch: <code>git branch -M main</code>
+- <code>git push origin main</code>
 
 
