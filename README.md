@@ -179,4 +179,11 @@ A branch allows you to work on different features or fixes independently. Once y
 
  <code>git pull origin main</code>
 
+ ---
+
+## Resolving Merge Conflicts
+
+An event that taes place when Git is unable to automatically resolve differnce in code between two commits.
+
 ---
+
