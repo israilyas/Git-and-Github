@@ -173,4 +173,10 @@ A branch allows you to work on different features or fixes independently. Once y
   ##### Pull Request
  It lets you tell other about changes you have pushed to a branch in a repositor on a Github.
 
+ #### Pull COmmand
+
+ Pull command used to fetch and download  content from remote repo and immediately update the local repo to match that content.
+
+ <code>git pullorigin main</code>
+
 ---
