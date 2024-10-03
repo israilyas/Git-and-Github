@@ -187,3 +187,23 @@ An event that taes place when Git is unable to automatically resolve differnce i
 
 ---
 
+## Undoing Changes 
+
+- Case 1:  staged changes
+  <code>git reset <-file  name-></code>
+  <code>git reset</code>
+
+- Case 2:  Committed changes (for one commit)
+  <code>git reset HEAD~1</code>
+
+- Case 2: Committed changes (for many commmits)  
+  <code>git reset <-commit hash-></code>  
+  <code>git reset --hard <-commit hash-></code>
+
+---
+
+## Fork
+
+A fork in GitHub is like making a copy of someone else's project into your own GitHub account. This allows you to make changes or experiments without affecting the original project. Once you have improved or modified the code, you can suggest those changes back to the original project through a pull request. It's a great way to contribute to open-source projects!
+
+---
