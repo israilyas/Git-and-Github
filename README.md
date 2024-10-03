@@ -177,6 +177,6 @@ A branch allows you to work on different features or fixes independently. Once y
 
  Pull command used to fetch and download  content from remote repo and immediately update the local repo to match that content.
 
- <code>git pullorigin main</code>
+ <code>git pull origin main</code>
 
 ---
